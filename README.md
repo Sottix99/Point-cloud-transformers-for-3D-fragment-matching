@@ -1,5 +1,8 @@
 # Pair Fragments
 This repository refers to my master's thesis in the Data Science graduate program at Sapienza University.
+## Data:
+The data used in this work is the Rotated cuts dataset (RCD) that comes from the Broken3D archive.
+
 
 ## Files:
 * `Main.ipynb` notebook that contains the model, in which all the 7 features (x, y, z, nx, ny, nz, A) are used;
