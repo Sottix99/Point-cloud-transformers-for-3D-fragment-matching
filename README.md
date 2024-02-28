@@ -1,7 +1,9 @@
 # Pair Fragments
 This repository refers to my master's thesis in the Data Science graduate program at Sapienza University.
 ## Data:
-The data used in this work is the Rotated cuts dataset (RCD) that comes from the Broken3D archive.
+* The overall data used in this work is the Rotated cuts dataset (RCD) that comes from the Broken3D archive.
+* The randomized Validation set used is: https://drive.google.com/file/d/1UWc90jlblj_aks512WgtJRRJe9qyxEEO/view?usp=drive_link
+* The randomized Test set used is:
 
 
 ## Files:
