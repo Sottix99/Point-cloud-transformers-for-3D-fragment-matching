@@ -6,7 +6,7 @@ This repository refers to my master's thesis in the Data Science graduate progra
 
 
 ![My Imaged](figures/schema_2.png)
-
+*image_caption*
 
 
 ## Data:
