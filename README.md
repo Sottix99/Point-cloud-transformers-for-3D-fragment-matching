@@ -1,9 +1,10 @@
 # Pair Fragments
 This repository refers to my master's thesis in the Data Science graduate program at Sapienza University.
+![My Imaged](figures/schema.png)
 ## Data:
-* The overall data used in this work is the Rotated cuts dataset (RCD) that comes from the Broken3D archive: https://deeplearninggate.roma1.infn.it/
-* The randomized Validation set used is:  https://drive.google.com/file/d/1UWc90jlblj_aks512WgtJRRJe9qyxEEO/view?usp=drive_link
-* The randomized Test set used is: https://drive.google.com/file/d/17YF-sJryzKPkg8W-1FRWMt_62Y3cS-1o/view?usp=drive_link
+* The overall data used in this work is the Rotated cuts dataset (RCD) that comes from the Broken3D archive: [here](https://deeplearninggate.roma1.infn.it/)
+* The randomized Validation set used is: [here](https://drive.google.com/file/d/1UWc90jlblj_aks512WgtJRRJe9qyxEEO/view?usp=drive_link)
+* The randomized Test set used is: [here](https://drive.google.com/file/d/17YF-sJryzKPkg8W-1FRWMt_62Y3cS-1o/view?usp=drive_link)
 
 
 ## Files:
