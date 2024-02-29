@@ -6,7 +6,7 @@ This repository refers to my master's thesis in the Data Science graduate progra
 
 
 ![My Imaged](figures/schema_2.png)
-
+![Alt Text](figures/Miniconda32024.02.20-15.23.03.01-ezgif.com-video-to-gif-converter.gif)
 
 
 ## Data:
