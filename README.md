@@ -3,7 +3,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
 This repository refers to my master's thesis in the Data Science graduate program at Sapienza University.
-
+The code used as a reference and starting point of this work for point cloud transformers is :[here]
 
 ![My Imaged](figures/schema_2.png)
 *Pair Model*
@@ -26,3 +26,4 @@ This repository refers to my master's thesis in the Data Science graduate progra
 * `Inference_on_Fragments_modified.ipynb`, notebook that contains the attempt of inferences when the fragments are modified;
 * `Visualize_fragments.ipynb`, notebook that contains the code to graphically represent the fragments, both original and modified;
 * `environment.yml` the conda envirorment to run the models
+  
