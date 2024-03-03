@@ -6,10 +6,6 @@ This repository refers to my master's thesis in the Data Science graduate progra
 
 The code used as a reference and starting point of this work for Point Cloud Transformer (PCT) is : [here](https://github.com/qq456cvb/Point-Transformers) (Menghao implementation)
 
-![My Imaged](figures/schema_2.png)
-*Pair Model*
-
-
 ## Data:
 
 <p align="center">
@@ -21,6 +17,11 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 * The Train set used is : [here](https://drive.google.com/file/d/1k0u6Ycnizsu2SJv-FDkrXtIK6mOiOoca/view?usp=drive_link)
 * The randomized Validation set used is: [here](https://drive.google.com/file/d/1UWc90jlblj_aks512WgtJRRJe9qyxEEO/view?usp=drive_link)
 * The randomized Test set used is: [here](https://drive.google.com/file/d/17YF-sJryzKPkg8W-1FRWMt_62Y3cS-1o/view?usp=drive_link)
+
+
+## Model:
+![My Imaged](figures/schema_2.png)
+*Pair Model*
   
 ## Results:
 The following table shows the metrics for the three different runs performed, in the last column the link to download the weights of the trained model can be accessed.
