@@ -20,9 +20,14 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 
 
 ## Model:
+The neural network developed for this thesis, as shown in the Figure, presents an architecture having two branches. In each of the two branches, there is the point cloud transformer encoder having shared weights. Compared to the original PCT encoder, modifications were made to allow compatibility with the data sizes used in this work. Each fragment has 7 features instead of the traditional three required by the first layer of the PCT encoder.
+The input pairs are divided into two groups, one containing the first elements of each pair and the other the second. These tensors of fragments are processed in parallel in the two branches of the network through the pct encoder layers. The output of each branch represents the global features of the individual fragments input. The next step is to go and aggregate the two tensors produced to arrive at the global features of the pairs. Named $G_1$ and $G_2$, the global characteristics of the first and second elements of the pair, respectively, are aggregated through the use of two symmetrical functions, such as sum and multiplication, thus producing the global characteristics of the pairs ($G\_Tot$).
+
 ![My Imaged](figures/schema_2.png)
 *Pair Model*
-  
+
+Then, $G\_Tot$ is input to the PCT's original classifier, which consists of three linear layers, where both relu and batch normalization are applied on the first two, interspersed with two dropout layers. 
+In the output, the model generates predictions regarding the adjacency of the two elements forming the pair.  
 ## Results:
 The following table shows the metrics for the three different runs performed, in the last column the link to download the weights of the trained model can be accessed.
 | Number of Features        | Loss          | Accuracy  | F1 Score | AUC Score| Weights|
