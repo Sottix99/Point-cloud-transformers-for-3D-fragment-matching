@@ -15,15 +15,12 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 <p align="center">
   <img src="figures/prova3.gif" alt="animated" />
 </p>
-
-
 *Fragment 1 of Couple 0*
 
 * The overall data used in this work is the Rotated cuts dataset (RCD) that comes from the Broken3D archive: [here](https://deeplearninggate.roma1.infn.it/)
 * The Train set used is : [here](https://drive.google.com/file/d/1k0u6Ycnizsu2SJv-FDkrXtIK6mOiOoca/view?usp=drive_link)
 * The randomized Validation set used is: [here](https://drive.google.com/file/d/1UWc90jlblj_aks512WgtJRRJe9qyxEEO/view?usp=drive_link)
 * The randomized Test set used is: [here](https://drive.google.com/file/d/17YF-sJryzKPkg8W-1FRWMt_62Y3cS-1o/view?usp=drive_link)
-![Alt Text](figures/prova3.gif)
 
 ## Files:
 * `Main.ipynb` notebook that contains the model, in which all the 7 features (x, y, z, nx, ny, nz, A) are used;
