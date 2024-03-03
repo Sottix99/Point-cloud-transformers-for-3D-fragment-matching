@@ -26,7 +26,7 @@ The input pairs are divided into two groups, one containing the first elements o
 ![My Imaged](figures/schema_2.png)
 *Pair Model*
 
-Then, $G\_Tot$ is input to the PCT's original classifier, which consists of three linear layers, where both relu and batch normalization are applied on the first two, interspersed with two dropout layers. 
+Then, $G\_{Tot}$ is input to the PCT's original classifier, which consists of three linear layers, where both relu and batch normalization are applied on the first two, interspersed with two dropout layers. 
 In the output, the model generates predictions regarding the adjacency of the two elements forming the pair.  
 ## Results:
 The following table shows the metrics for the three different runs performed, in the last column the link to download the weights of the trained model can be accessed.
