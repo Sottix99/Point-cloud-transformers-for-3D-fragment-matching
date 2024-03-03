@@ -14,6 +14,7 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 
 <p align="center">
   <img src="figures/prova3.gif" alt="animated" />
+ <em>Figure 1 training process of NN.</em>
 </p>
 *Fragment 1 of Couple 0*
 
