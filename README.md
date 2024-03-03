@@ -13,7 +13,7 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 ## Data:
 
 <p align="center">
-  <img src="figures/prova3.gif" alt="animated" />
+  <img src="figures/Couple0.gif" alt="animated" />
  *Fragment 1 of Couple 0*
 </p>
 
