@@ -6,7 +6,21 @@ This repository refers to my master's thesis in the Data Science graduate progra
 
 The code used as a reference and starting point of this work for Point Cloud Transformer (PCT) is : [here](https://github.com/qq456cvb/Point-Transformers) (Menghao implementation)
 
-## Data:
+## Abstract
+This work extends a previous preliminary investigation done by Alessandro Baiocchi et al. on data from the ["Ente Parco Archeologico del Colosseo"](https://colosseo.it), whose primary objective is the reconstruction of ancient artifacts from their fragments.
+The key contributions of this work can be divided into both practical and
+theoretical aspects: From a theoretical perspective, there is a noticeable scarcity of models and papers
+focusing on the reconstruction of artifacts. This work represents a novel approach in
+this field by employing the Point Cloud Transformer architecture. This contribution
+adds a unique theoretical dimension to the existing body of knowledge, introducing
+innovative methods for artifact reconstruction. On the practical side, the significance
+of this work is evident. The model offers valuable support to archaeologists in the
+intricate task of reconstructing fragmented artifacts. By doing so, it opens new
+horizons for investigation and enhances our understanding of the past. The practical
+contribution underscores the real-world applications and implications of the proposed
+model in the field of archaeology.
+
+## Data
 
 <p align="center">
   <img src="figures/Couple0.gif" alt="animated" />
@@ -28,7 +42,9 @@ The input pairs are divided into two groups, one containing the first elements o
 
 Then, $G\_{Tot}$ is input to the PCT's original classifier, which consists of three linear layers, where both relu and batch normalization are applied on the first two, interspersed with two dropout layers. 
 In the output, the model generates predictions regarding the adjacency of the two elements forming the pair.  
-## Results:
+
+## Results
+
 The following table shows the metrics for the three different runs performed, in the last column the link to download the weights of the trained model can be accessed.
 | Number of Features        | Loss          | Accuracy  | F1 Score | AUC Score| Weights|
 | ------------- |:-------------:| -----:|-----:|-----:|-----:|
@@ -44,7 +60,8 @@ Another study was conducted to evaluate the effect of data augmentation on the m
 | Augmented Data| Original Data | 0.618 | 0.657 | 0.657 | 0.715 | 
 | Augmented Data| Augmented Data| 0.617 | 0.659 | 0.659 | 0.715 | 
 
-## Conclusions:
+## Conclusions
+
 In conclusion, recalling again the novelty of this task, the following work has
 moved an important step forward in the field of fragment matching by introducing
 an innovative method based solely on the use of Transformer-type neural networks.
@@ -63,7 +80,7 @@ immeasurable historical, heritage and cultural value.
 
 
 
-## Files:
+## Files
 * `Main.ipynb` notebook that contains the model, in which all the 7 features (x, y, z, nx, ny, nz, A) are used;
 * `Main_3_features.ipynb` notebook that contains the model, in which only the  first 3 features (x, y, z) are used;
 * `Main_6_features.ipynb` notebook that contains the model, in which only the  first 6 features (x, y, z, nx, ny, nz) are used;
