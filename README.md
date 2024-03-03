@@ -44,6 +44,22 @@ Another study was conducted to evaluate the effect of data augmentation on the m
 | Augmented Data| Original Data | 0.618 | 0.657 | 0.657 | 0.715 | 
 | Augmented Data| Augmented Data| 0.617 | 0.659 | 0.659 | 0.715 | 
 
+## Conclusions:
+In conclusion, recalling again the novelty of this task, the following work has
+moved an important step forward in the field of fragment matching by introducing
+an innovative method based solely on the use of Transformer-type neural networks.
+The performances of the model are discrete, also given the task. The positive
+impact on the metrics of the three normals and random rotations was ascertained,
+while the areas of the mesh triangles were negligible. By graphically analyzing the
+point clouds, also under the lens of the three changes made, it can be hypothesized
+that the network tends to rely on the similarity of shape and proportion between
+fragments to make its decisions. Moreover, the editing operations may prove to be
+a valuable tool for identifying and removing the various anomalous pairs present
+in the datasets. Such couples, in fact, likely present a low degree of usefulness in
+archaeological research. It is likely to become customary in the future for teams of
+archaeologists to be joined by intelligent tools to accelerate operations, including
+those of correctly combining artifact fragments, thus helping to unearth objects of
+immeasurable historical, heritage and cultural value.
 
 
 
