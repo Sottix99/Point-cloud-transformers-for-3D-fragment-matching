@@ -28,4 +28,5 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 * `Inferences_on_modified_fragments.ipynb` notebook that contains the attempt of inferences when the fragments are modified;
 * `Visualize_fragments.ipynb` notebook that contains the code to graphically represent the fragments, both original and modified;
 * `environment.yml` the conda envirorment to run the models
+* `miniconda3.yaml` the conda environment to print fragments in notebook `Visualize_fragments.ipynb`
   
