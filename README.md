@@ -23,6 +23,7 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 * The randomized Test set used is: [here](https://drive.google.com/file/d/17YF-sJryzKPkg8W-1FRWMt_62Y3cS-1o/view?usp=drive_link)
   
 ## Results:
+The following table shows the metrics for the three different runs performed, in the last column the link to download the weights of the trained model can be accessed.
 | Number of Features        | Loss          | Accuracy  | F1 Score | AUC Score| Weights|
 | ------------- |:-------------:| -----:|-----:|-----:|-----:|
 | 3 | 0.628 | 0.650 | 0.649 | 0.698 | [here](https://drive.google.com/file/d/1EUoxbtQ0-mnN-WUBiuLykIRP-mGSImaE/view?usp=sharing)|
