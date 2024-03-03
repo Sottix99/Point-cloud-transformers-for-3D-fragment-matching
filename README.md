@@ -23,11 +23,11 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 * The randomized Test set used is: [here](https://drive.google.com/file/d/17YF-sJryzKPkg8W-1FRWMt_62Y3cS-1o/view?usp=drive_link)
   
 ## Results:
-| Number of Features        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| 3     | right-aligned | $1600 |
-| 6     | centered      |   $12 |
-| 7 | are neat      |    $1 |
+| Number of Features        | Loss          | Accuracy  | F1 Score | AUC Score|
+| ------------- |:-------------:| -----:|-----:|-----:|
+| 3 | 0.628 | 0.650 | 0.649 | 0.698 |
+| 6 | 0.621 | 0.655 | 0.655 | 0.709 |
+| 7 | 0.618 | 0.657 | 0.657 | 0.715 |
 
 
 
