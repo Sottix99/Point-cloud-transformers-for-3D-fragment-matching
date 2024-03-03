@@ -14,7 +14,7 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 
 <p align="center">
   <img src="figures/Couple0.gif" alt="animated" />
- *Couple 0 of the Test set*
+ Couple 0 of the Test set
 </p>
 
 * The overall data used in this work is the Rotated cuts dataset (RCD) that comes from the Broken3D archive: [here](https://deeplearninggate.roma1.infn.it/)
