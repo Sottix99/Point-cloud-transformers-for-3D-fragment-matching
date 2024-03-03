@@ -11,9 +11,8 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 
 
 ## Data:
-<p align="center">
 ![Alt Text](figures/prova3.gif)
-</p>
+
 
 
 *Fragment 1 of Couple 0*
