@@ -14,9 +14,8 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 
 <p align="center">
   <img src="figures/prova3.gif" alt="animated" />
- <em>Figure 1 training process of NN.</em>
+ <em>*Fragment 1 of Couple 0*</em>
 </p>
-*Fragment 1 of Couple 0*
 
 * The overall data used in this work is the Rotated cuts dataset (RCD) that comes from the Broken3D archive: [here](https://deeplearninggate.roma1.infn.it/)
 * The Train set used is : [here](https://drive.google.com/file/d/1k0u6Ycnizsu2SJv-FDkrXtIK6mOiOoca/view?usp=drive_link)
