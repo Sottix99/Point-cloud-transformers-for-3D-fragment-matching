@@ -26,9 +26,9 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 The following table shows the metrics for the three different runs performed, in the last column the link to download the weights of the trained model can be accessed.
 | Number of Features        | Loss          | Accuracy  | F1 Score | AUC Score| Weights|
 | ------------- |:-------------:| -----:|-----:|-----:|-----:|
-| 3 | 0.628 | 0.650 | 0.649 | 0.698 | [here](https://drive.google.com/file/d/1EUoxbtQ0-mnN-WUBiuLykIRP-mGSImaE/view?usp=sharing)|
-| 6 | 0.621 | 0.655 | 0.655 | 0.709 | [here](https://drive.google.com/file/d/13cdu3c3Adxyo_a0VtKkRIFbCrpav9bH0/view?usp=sharing)|
-| 7 | 0.618 | 0.657 | 0.657 | 0.715 | [here](https://drive.google.com/file/d/12wQAUwk6HGAq31u1YmNjTJ8JXqxPBJ_R/view?usp=drive_link)|
+| 3 | 0.628 | 0.650 | 0.649 | 0.698 | [Epoch 63](https://drive.google.com/file/d/1EUoxbtQ0-mnN-WUBiuLykIRP-mGSImaE/view?usp=sharing)|
+| 6 | 0.621 | 0.655 | 0.655 | 0.709 | [Epoch 43](https://drive.google.com/file/d/13cdu3c3Adxyo_a0VtKkRIFbCrpav9bH0/view?usp=sharing)|
+| 7 | 0.618 | 0.657 | 0.657 | 0.715 | [Epoch 116](https://drive.google.com/file/d/12wQAUwk6HGAq31u1YmNjTJ8JXqxPBJ_R/view?usp=drive_link)|
 
 Another study was conducted to evaluate the effect of data augmentation on the model. The link to download the model weights without data augmentation is: [here](https://drive.google.com/file/d/1LikkbhCHqgWpocWq_R6fbTd2YsrnyRwb/view?usp=sharing).  The results of the comparison are shown in the following table:
 |Train Data| Test Data | Loss          | Accuracy  | F1 Score | AUC Score|
