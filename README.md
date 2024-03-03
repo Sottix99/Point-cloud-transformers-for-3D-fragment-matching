@@ -30,6 +30,15 @@ The following table shows the metrics for the three different runs performed, in
 | 6 | 0.621 | 0.655 | 0.655 | 0.709 | [here](https://drive.google.com/file/d/13cdu3c3Adxyo_a0VtKkRIFbCrpav9bH0/view?usp=sharing)|
 | 7 | 0.618 | 0.657 | 0.657 | 0.715 | [here](https://drive.google.com/file/d/12wQAUwk6HGAq31u1YmNjTJ8JXqxPBJ_R/view?usp=drive_link)|
 
+A study was conducted to evaluate the effect of data augmentation on the model. The link to download the model weights without data augmentation is: [here](https://drive.google.com/file/d/1LikkbhCHqgWpocWq_R6fbTd2YsrnyRwb/view?usp=sharing).  The results of the comparison are shown in the following table:
+|Train Data| Test Data | Loss          | Accuracy  | F1 Score | AUC Score|
+| ------------- |:-------------:| -----:|-----:|-----:|-----:|
+| Original Data | Original Data | 0.613 | 0.660 | 0.659 | 0.72  | 
+| Original Data | Augmented Data| 0.625 | 0.648 | 0.644 | 0.707 | 
+| Augmented Data| Original Data | 0.618 | 0.657 | 0.657 | 0.715 | 
+| Augmented Data| Augmented Data| 0.617 | 0.659 | 0.659 | 0.715 | 
+
+
 
 
 ## Files:
