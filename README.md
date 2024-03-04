@@ -2,6 +2,11 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
+<p align="center">
+  <img src="figures/Couple0.gif" alt="animated" />
+ Couple 0 of the Test set
+</p>
+
 This repository refers to my master's thesis in the Data Science graduate program at Sapienza University.
 
 The code used as a reference and starting point of this work for Point Cloud Transformer (PCT) is : [here](https://github.com/qq456cvb/Point-Transformers) (Menghao implementation)
@@ -22,12 +27,6 @@ contribution underscores the real-world applications and implications of the pro
 model in the field of archaeology.
 
 ## Data
-
-<p align="center">
-  <img src="figures/Couple0.gif" alt="animated" />
- Couple 0 of the Test set
-</p>
-
 The data used in this work is the Rotated cuts dataset (RCD) that comes from the [Broken3D archive](https://deeplearninggate.roma1.infn.it/). In the collection, the dataset was obtained from 3D solid objects which were cut to create fragments. In addition to the classic structure of point clouds, these datasets have four additional features per point: nx, ny, nz, and A. The first three represent the normals regarding x, y, and z, respectively, while the last one is the area of the triangle associated with the individual point. 
 
 The RCD (Randomized Cutting Dataset) was constructed from 2180 solid objects of the types cube, sphere, and torus. The cutting surfaces have random orientations, allowing for fragments with realistic shapes. These surfaces have been designed
