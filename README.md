@@ -64,7 +64,10 @@ The following table shows the metrics for the three different runs performed, in
 | 6 | 0.621 | 0.655 | 0.655 | 0.709 | [Epoch 43](https://drive.google.com/file/d/13cdu3c3Adxyo_a0VtKkRIFbCrpav9bH0/view?usp=sharing)|
 | 7 | 0.618 | 0.657 | 0.657 | 0.715 | [Epoch 116](https://drive.google.com/file/d/12wQAUwk6HGAq31u1YmNjTJ8JXqxPBJ_R/view?usp=drive_link)|
 
-It shows the importance of normals in the task and the possibility of optimizing computational resources and memory by excluding triangle areas without compromising performance.
+The results indicate that having more information in the data, as one would logically expect, leads to slightly better metrics. It is important to consider that although there is little difference between
+three and seven features when considering only the best epochs, examination of average performance reveals a clear distinction, complying with what is indicated in the scientific literature about the importance of normal features. The difference between having six and seven features is almost negligible, both in best epoch and average performance. Therefore, the seventh feature, can be removed from the original
+data, as it does not contribute to increased performance, but rather burdens the data by increasing the memory required by the network.
+
 
 Another study was conducted to evaluate the effect of data augmentation on the model. The link to download the model weights without data augmentation is: [here (Epoch 98)](https://drive.google.com/file/d/1LikkbhCHqgWpocWq_R6fbTd2YsrnyRwb/view?usp=sharing).  The results of the comparison are shown in the following table:
 |Train Data| Test Data | Loss          | Accuracy  | F1 Score | AUC Score|
