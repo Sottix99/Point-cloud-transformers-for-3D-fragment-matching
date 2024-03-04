@@ -97,7 +97,7 @@ The first analysis performed is to evaluate the effect of replacing the seven fe
 </p>
 
 
-![My Imaged](figures/schema_2.png)
+![My Imaged](figures/metrics_p (1).png)
 *Pair Model*
 
 
