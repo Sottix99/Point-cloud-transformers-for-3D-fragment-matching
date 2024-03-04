@@ -89,11 +89,7 @@ This section reports on experiments where the focus is on applying changes to th
 The first analysis performed is to evaluate the effect of replacing the seven features belonging to randomly chosen points from the point clouds with the averages of their respective columns. P represents the percentage of changed points.
 <p align="center">
   <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
-</p> 
-<p align="center">
   <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
-</p> 
-<p align="center">
   <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
 </p>
 ## Conclusions
