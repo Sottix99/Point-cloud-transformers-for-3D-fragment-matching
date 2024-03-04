@@ -34,7 +34,7 @@ model in the field of archaeology.
 * The randomized Test set used is: [here](https://drive.google.com/file/d/17YF-sJryzKPkg8W-1FRWMt_62Y3cS-1o/view?usp=drive_link)
 
 
-## Model:
+## Model
 The neural network developed for this thesis, as shown in the Figure, presents an architecture having two branches. In each of the two branches, there is the point cloud transformer encoder having shared weights. Compared to the original PCT encoder, modifications were made to allow compatibility with the data sizes used in this work. Each fragment has 7 features instead of the traditional three required by the first layer of the PCT encoder.
 The input pairs are divided into two groups, one containing the first elements of each pair and the other the second. To enhance the model’s generalization capability, each individual point cloud undergoes a random rotation, serving as a form of data augmentation. Furthermore, all fragments are translated to the origin. These tensors of fragments are processed in parallel in the two branches of the network through the pct encoder layers. The output of each branch represents the global features of the individual fragments input. The next step is to go and aggregate the two tensors produced to arrive at the global features of the pairs. Named $G_1$ and $G_2$, the global characteristics of the first and second elements of the pair, respectively, are aggregated through the use of two symmetrical functions, such as sum and multiplication, thus producing the global characteristics of the pairs ($G\_{Tot}$).
 
