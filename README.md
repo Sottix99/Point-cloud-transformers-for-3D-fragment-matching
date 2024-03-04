@@ -92,6 +92,11 @@ The first analysis performed is to evaluate the effect of replacing the seven fe
   <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
   <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
 </p>
+
+
+
+
+
 ## Conclusions
 
 In conclusion, recalling again the novelty of this task, the following work has
