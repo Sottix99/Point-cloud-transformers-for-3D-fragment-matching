@@ -95,7 +95,7 @@ The first analysis performed is to evaluate the effect of replacing the seven fe
   <img src="figures/p_0.9.gif" alt="animated" width="200" height="200" />
    c
 </p>
-between the range 0.1 and 0.4 of p, the 4 metrics used, maintain almost the same value as when no change is made to the data. Subsequently, as 50\% of the points are changed, there is a drop in model performance, with a drop of about 1\% on each metric for every additional 10\% of points changed. The metrics experience a significant fall when p reaches a value of 0.9, with an accuracy of 0.56, F1 of 0.50, AUC of 0.65 and an increase in loss to 0.68.
+Between the range 0.1 and 0.4 of p, the 4 metrics used, maintain almost the same value as when no change is made to the data. Subsequently, as 50\% of the points are changed, there is a drop in model performance, with a drop of about 1\% on each metric for every additional 10\% of points changed. The metrics experience a significant fall when p reaches a value of 0.9, with an accuracy of 0.56, F1 of 0.50, AUC of 0.65 and an increase in loss to 0.68.
 
 
 ## Conclusions
