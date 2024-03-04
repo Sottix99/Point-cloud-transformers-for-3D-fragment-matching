@@ -29,9 +29,9 @@ model in the field of archaeology.
 ## Data
 The data used in this work is the Rotated cuts dataset (RCD) that comes from the [Broken3D archive](https://deeplearninggate.roma1.infn.it/). In the collection, the dataset was obtained from 3D solid objects which were cut to create fragments. In addition to the classic structure of point clouds, these datasets have four additional features per point: nx, ny, nz, and A. The first three represent the normals regarding x, y, and z, respectively, while the last one is the area of the triangle associated with the individual point. 
 <p align="center">
- <img src="figures/RCD.png" width="500" height="500">
+  <img src="figures/RCD.png" width="500" height="500">
  Example of a fragmented cube from the RCD dataset in the Broken3D repository (Reproduced from A. Baiocchi et al., Artificial neural networks exploiting point cloud data for fragmented solid objects
-classification, 2023).
+ classification, 2023).
 </p>
 
 The RCD (Randomized Cutting Dataset) was constructed from 2180 solid objects of the types cube, sphere, and torus. The cutting surfaces have random orientations, allowing for fragments with realistic shapes. These surfaces have been designed
