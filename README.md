@@ -64,6 +64,8 @@ The following table shows the metrics for the three different runs performed, in
 | 6 | 0.621 | 0.655 | 0.655 | 0.709 | [Epoch 43](https://drive.google.com/file/d/13cdu3c3Adxyo_a0VtKkRIFbCrpav9bH0/view?usp=sharing)|
 | 7 | 0.618 | 0.657 | 0.657 | 0.715 | [Epoch 116](https://drive.google.com/file/d/12wQAUwk6HGAq31u1YmNjTJ8JXqxPBJ_R/view?usp=drive_link)|
 
+It shows the importance of normals in the task and the possibility of optimizing computational resources and memory by excluding triangle areas without compromising performance.
+
 Another study was conducted to evaluate the effect of data augmentation on the model. The link to download the model weights without data augmentation is: [here (Epoch 98)](https://drive.google.com/file/d/1LikkbhCHqgWpocWq_R6fbTd2YsrnyRwb/view?usp=sharing).  The results of the comparison are shown in the following table:
 |Train Data| Test Data | Loss          | Accuracy  | F1 Score | AUC Score|
 | ------------- |:-------------:| -----:|-----:|-----:|-----:|
@@ -71,6 +73,8 @@ Another study was conducted to evaluate the effect of data augmentation on the m
 | Original Data | Augmented Data| 0.625 | 0.648 | 0.644 | 0.707 | 
 | Augmented Data| Original Data | 0.618 | 0.657 | 0.657 | 0.715 | 
 | Augmented Data| Augmented Data| 0.617 | 0.659 | 0.659 | 0.715 | 
+
+it can be noted that there is an effect, albeit small, on performances: the model trained without data augmentation, when evaluated during inference on the test set where random rotations are applied, seems to have less effective predictions compared to when evaluated on the original data. In the case of the other model, however, the difference between the two inference scenarios appears to be negligible. It exhibits the same performance regardless of the orientation of the point clouds, thus achieving the goal of making it rotationally invariant.
 
 ## Conclusions
 
