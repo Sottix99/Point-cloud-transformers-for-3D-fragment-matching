@@ -31,7 +31,7 @@ The data used in this work is the Rotated cuts dataset (RCD) that comes from the
 
 <p align="center">
   <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
- Couple 0 of the Test set
+
 </p>
 
 The RCD (Randomized Cutting Dataset) was constructed from 2180 solid objects of the types cube, sphere, and torus. The cutting surfaces have random orientations, allowing for fragments with realistic shapes. These surfaces have been designed
