@@ -83,6 +83,9 @@ Another study was conducted to evaluate the effect of data augmentation on the m
 
 it can be noted that there is an effect, albeit small, on performances: the model trained without data augmentation, when evaluated during inference on the test set where random rotations are applied, seems to have less effective predictions compared to when evaluated on the original data. In the case of the other model, however, the difference between the two inference scenarios appears to be negligible. It exhibits the same performance regardless of the orientation of the point clouds, thus achieving the goal of making it rotationally invariant.
 
+## Robustness Analysis
+This section reports on experiments where the focus is on applying changes to the input data to assess the effect there is on the model’s performance
+
 ## Conclusions
 
 In conclusion, recalling again the novelty of this task, the following work has
