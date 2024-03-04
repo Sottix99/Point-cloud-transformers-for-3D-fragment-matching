@@ -40,6 +40,8 @@ Originally organized in clusters, to be processed by the neural network created 
 
 ## Model
 The neural network developed for this thesis, as shown in the Figure, presents an architecture having two branches. In each of the two branches, there is the point cloud transformer encoder having shared weights. Compared to the original PCT encoder, modifications were made to allow compatibility with the data sizes used in this work. Each fragment has 7 features instead of the traditional three required by the first layer of the PCT encoder.
+Given the large number of pairs in the dataset (approximately 2 million) and the specific weight of each data point and the utilized neural network, the initial step involves randomly selecting 10,000 balanced pairs at each epoch of the model. In
+other words, 5000 pairs of adjacent fragments and an equal number of non-adjacent are extracted through random sampling of the dataset.
 The input pairs are divided into two groups, one containing the first elements of each pair and the other the second. To enhance the model’s generalization capability, each individual point cloud undergoes a random rotation, serving as a form of data augmentation. Furthermore, all fragments are translated to the origin. These tensors of fragments are processed in parallel in the two branches of the network through the pct encoder layers. The output of each branch represents the global features of the individual fragments input. The next step is to go and aggregate the two tensors produced to arrive at the global features of the pairs. Named $G_1$ and $G_2$, the global characteristics of the first and second elements of the pair, respectively, are aggregated through the use of two symmetrical functions, such as sum and multiplication, thus producing the global characteristics of the pairs ($G\_{Tot}$).
 
 ![My Imaged](figures/schema_2.png)
@@ -47,6 +49,9 @@ The input pairs are divided into two groups, one containing the first elements o
 
 Then, $G\_{Tot}$ is input to the PCT's original classifier, which consists of three linear layers, where both relu and batch normalization are applied on the first two, interspersed with two dropout layers. 
 In the output, the model generates predictions regarding the adjacency of the two elements forming the pair.  
+Concerning the validation set and the Test set, a subsample of the original datais also used here. Specifically, three thousand positive pairs and an equal number of negative pairs are randomly included, which, unlike the training set, are kept
+constant throughout the training cycle.
+
 
 ## Results
 
