@@ -31,7 +31,6 @@ The data used in this work is the Rotated cuts dataset (RCD) that comes from the
 
 <p align="center">
   <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
-
 </p>
 
 The RCD (Randomized Cutting Dataset) was constructed from 2180 solid objects of the types cube, sphere, and torus. The cutting surfaces have random orientations, allowing for fragments with realistic shapes. These surfaces have been designed
@@ -87,8 +86,16 @@ it can be noted that there is an effect, albeit small, on performances: the mode
 This section reports on experiments where the focus is on applying changes to the input data to assess the effect there is on the model’s performance.
 
 ### Substituting random points
-
-
+The first analysis performed is to evaluate the effect of replacing the seven features belonging to randomly chosen points from the point clouds with the averages of their respective columns. P represents the percentage of changed points.
+<p align="center">
+  <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
+</p> 
+<p align="center">
+  <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
+</p> 
+<p align="center">
+  <img src="figures/prova3.gif" alt="animated" width="200" height="200" />
+</p>
 ## Conclusions
 
 In conclusion, recalling again the novelty of this task, the following work has
