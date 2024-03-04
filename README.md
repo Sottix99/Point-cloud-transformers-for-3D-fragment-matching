@@ -29,6 +29,10 @@ model in the field of archaeology.
 ## Data
 The data used in this work is the Rotated cuts dataset (RCD) that comes from the [Broken3D archive](https://deeplearninggate.roma1.infn.it/). In the collection, the dataset was obtained from 3D solid objects which were cut to create fragments. In addition to the classic structure of point clouds, these datasets have four additional features per point: nx, ny, nz, and A. The first three represent the normals regarding x, y, and z, respectively, while the last one is the area of the triangle associated with the individual point. 
 
+![My Imaged](figures/RCD.png)
+*Example of a fragmented cube from the RCD dataset in the Broken3D repository (Reproduced from A. Baiocchi et al., Artificial neural networks exploiting point cloud data for fragmented solid objects
+classification, 2023).*
+
 The RCD (Randomized Cutting Dataset) was constructed from 2180 solid objects of the types cube, sphere, and torus. The cutting surfaces have random orientations, allowing for fragments with realistic shapes. These surfaces have been designed
 to be irregular, adding further realism. Furthermore, a random noise was applied to the vertices of the triangle meshes. This noise was introduced to mimic the effects of aging and accidental breakages that can occur in artifacts. Going into more detail, the dataset is divided into clusters, each having two macro elements [n_clusters, 2]. The first, with the shape [n_f rags, 1024, 7], represents the set of fragments belonging to the i-th cluster. The second macro element is the adjacency matrix associated with the cluster, providing crucial indications on how the pieces should be joined to form the original object. The dataset is divided into three parts: Train set, Validation Set, and Test Set, with proportions of 70%, 15%, and 15% of the total, respectively.
 Originally organized in clusters, to be processed by the neural network created in this work all possible pairs are unrolled and saved in a list in triplets [frag_a, frag_b, label].
