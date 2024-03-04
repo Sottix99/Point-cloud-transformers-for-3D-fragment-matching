@@ -8,6 +8,7 @@ The code used as a reference and starting point of this work for Point Cloud Tra
 
 ## Abstract
 This work extends a previous preliminary investigation done by [Alessandro Baiocchi et al.](https://iopscience.iop.org/article/10.1088/2632-2153/ad035e) on data from the ["Ente Parco Archeologico del Colosseo"](https://colosseo.it),, whose decisive contributions proved to be the creation of a repository of synthetic datasets containing fragments of 3D objects, called Broken3D, and the execution of the task of internal/external fragment classification.
+The goal of the thesis reported in this repository is instead to build a model capable of practicing the task of fragment matching. Given two 3D scans of fragments, the model must predict whether they are adjacent or not.
 The key contributions of this work can be divided into both practical and
 theoretical aspects: From a theoretical perspective, there is a noticeable scarcity of models and papers
 focusing on the reconstruction of artifacts. This work represents a novel approach in
