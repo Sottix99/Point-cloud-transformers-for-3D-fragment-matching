@@ -34,8 +34,8 @@ to be irregular, adding further realism. Furthermore, a random noise was applied
 Originally organized in clusters, to be processed by the neural network created in this work all possible pairs are unrolled and saved in a list in triplets [frag_a, frag_b, label].
 
 <p align="center">
- <img src='figures/Infogrammadati4.png' width="250" height="250" >
-Input data
+   <img src='figures/Infogrammadati4.png' width="250" height="250" />
+  Input data
 </p>
 
 Given the large number of pairs in the dataset (about 2 million), 10,000 balanced pairs are selected at each epoch. In other words, 5000 pairs of adjacent fragments and an equal number of non-adjacent are extracted through random sampling of the dataset. Concerning the validation set and the Test set, a subsample of the original datais also used here. Specifically, three thousand positive pairs and an equal number of negative pairs are randomly included, which, unlike the training set, are kept
