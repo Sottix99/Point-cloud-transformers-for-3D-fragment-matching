@@ -34,7 +34,7 @@ to be irregular, adding further realism. Furthermore, a random noise was applied
 Originally organized in clusters, to be processed by the neural network created in this work all possible pairs are unrolled and saved in a list in triplets [frag_a, frag_b, label].
 
 <p align="center">
-  <img src='figures/Infogrammadati4.png' width="250" height="250" />
+  <img src='figures/Infogrammadati4.png' alt="animated" width="250" height="250" />
  Input data
 </p>
 
