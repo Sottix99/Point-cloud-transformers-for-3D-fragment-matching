@@ -104,17 +104,27 @@ It can be noted that there is an effect, albeit small, on performances: the mode
 ## Considerations on predictions of model pairings
 It was decided to investigate more deeply into the predictions made by the network. The objective was to scrutinize the behavior and decisions of the model through a graphical analysis of the two elements that make up the various pairs, to understand if the shapes of the fragments influence predictions. Examining various pairs, one of the initial observations is the presence of some "peculiar" cases. In 10\% of the pairs, with rough inference, one of the fragments is significantly larger than the other and the associated label is often 0 (nonadjacent). These situations could have a negative impact on the model by "contaminating" the data and leading it to frequently predict the value zero when it encounters elements with such disproportionate sizes. 
 
-<p align="center">
+<div style="text-align:center">
+ <p align="center">
   <img src="figures/Couple1008_v2.gif" alt="animated" />
-GIF 2: Couple 1008 of the Test set
-</p>
+  </p>
+  <p align="center">
+   GIF 2: Couple 1008, Test set
+  </p>
+</div>
+
 
 Another interesting observation is that the network seems to rely on the similarity of the shapes and sizes of the two fragments to make its predictions. After observing several pairs, their labels, and the model's predictions, it is possible to get an idea of what the network will predict by observing the shape and proportion between the two point clouds. 
 
-<p align="center">
+
+<div style="text-align:center">
+ <p align="center">
   <img src="figures/Couple5426.gif" alt="animated" />
- GIF 3: Couple 5426 of the Test set
-</p>
+  </p>
+  <p align="center">
+   GIF 3: Couple 5426, Test set
+  </p>
+</div>
 
 Were this assumption to prove correct, the model's strategy of assessing the similarity between the two point clouds would make sense. This approach could be analogous to a puzzle-solving strategy, where the attempt to join the pieces begins by looking for pairings between the most similar pieces. Such logic is consistent, since in reality, during the reconstruction of a fragmented object, it is likely that the most similar pieces are those that are close together. However, it is important to note that this consideration is closely related to the archaeological context of reference.
 
@@ -132,7 +142,7 @@ Three different modifications were made:
   <img src="figures/original.gif" alt="animated" width="250" height="120"/>
   </p>
   <p align="center">
-    GIF 4: Original Frgament 1 from Couple 0
+    GIF 4: Frgament 1 from Couple 0, Test Set
   </p>
 </div>
 
