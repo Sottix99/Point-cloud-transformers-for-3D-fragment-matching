@@ -147,7 +147,7 @@ Sono state apportate tre modifiche diverse:
 
 </p>
 <p align="center">
-    Original Frgament 1 from Couple 0
+  (a)            (b)            (c)        
   </p>
 </div>
 
