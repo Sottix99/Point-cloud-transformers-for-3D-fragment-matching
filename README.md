@@ -82,12 +82,36 @@ Another study was conducted to evaluate the effect of data augmentation on the m
 
 it can be noted that there is an effect, albeit small, on performances: the model trained without data augmentation, when evaluated during inference on the test set where random rotations are applied, seems to have less effective predictions compared to when evaluated on the original data. In the case of the other model, however, the difference between the two inference scenarios appears to be negligible. It exhibits the same performance regardless of the orientation of the point clouds, thus achieving the goal of making it rotationally invariant.
 
+## Considerations on predictions of model pairings
+It was decided to investigate more deeply into the predictions made by the network. The objective was to scrutinize the behavior and decisions of the model through a graphical analysis of the two elements that make up the various pairs, to understand if the shapes of the fragments influence predictions. Examining various pairs, one of the initial observations is the presence of some "peculiar" cases. In 10\% of the pairs, with rough inference, one of the fragments is significantly larger than the other and the associated label is often 0 (nonadjacent). these situations could have a negative impact on the model by "contaminating" the data and leading it to frequently predict the value zero when it encounters elements with such disproportionate sizes. 
+
+<p align="center">
+  <img src="figures/Couple0.gif" alt="animated" />
+ Couple 0 of the Test set
+</p>
+
+Another interesting observation is that the network seems to rely on the similarity of the shapes and sizes of the two fragments to make its predictions. After observing several pairs, their labels, and the model's predictions, it is possible to get an idea of what the network will predict by observing the shape and proportion between the two point clouds. 
+
+<p align="center">
+  <img src="figures/Couple0.gif" alt="animated" />
+ Couple 0 of the Test set
+</p>
+
+Were this assumption to prove correct, the model's strategy of assessing the similarity between the two point clouds would make sense. This approach could be analogous to a puzzle-solving strategy, where the attempt to join the pieces begins by looking for pairings between the most similar pieces. Such logic is consistent, since in reality, during the reconstruction of a fragmented object, it is likely that the most similar pieces are those that are close together. However, it is important to note that this consideration is closely related to the archaeological context of reference.
+
+
+
 ## Robustness Analysis
 This section reports on experiments where the focus is on applying changes to the input data to assess the effect there is on the model’s performance.
 Sono state apportate tre modifiche diverse: 
 * sostituzione di punti campionati casualmente con la media delle relative colonne
 * sostituzione di punti selezionati con l' attribuzione di punti esistenti che non ricadono in quelli scelti
 * sostituzione di punti selezionati con l'applicazione di rumore, generando così nuovi punti 
+
+
+
+Changing randomly sampled points showed that the data retained information longer as the number of changes increased. Removing specific areas accelerates the descent of metrics, and some predictions vary with the modified surfaces. Finally, the application of random noise to point coordinates showed that the network begins to exhibit poor performance even with a very small number of altered points. The robustness studies, especially the last one, suggest that they can be used as a filter to detect anomalous data. in fact, with more than 90% of the points modified, the pairs that the model continues to predict as nonadjacent are predominantly composed of bizarre data.
+
 
 ### Substituting random points
 The first analysis performed is to evaluate the effect of replacing the seven features belonging to randomly chosen points from the point clouds with the averages of their respective columns. P represents the percentage of changed points.
