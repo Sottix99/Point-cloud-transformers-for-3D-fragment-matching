@@ -102,7 +102,9 @@ Another study was conducted to evaluate the effect of data augmentation on the m
 It can be noted that there is an effect, albeit small, on performances: the model trained without data augmentation, when evaluated during inference on the test set where random rotations are applied, seems to have less effective predictions compared to when evaluated on the original data. In the case of the other model, however, the difference between the two inference scenarios appears to be negligible. It exhibits the same performance regardless of the orientation of the point clouds, thus achieving the goal of making it rotationally invariant.
 
 ## Considerations on predictions of model pairings
-It was decided to investigate more deeply into the predictions made by the network. The objective was to scrutinize the behavior and decisions of the model through a graphical analysis of the two elements that make up the various pairs, to understand if the shapes of the fragments influence predictions. Examining various pairs, one of the initial observations is the presence of some "peculiar" cases. In 10\% of the pairs, with rough inference, one of the fragments is significantly larger than the other and the associated label is often 0 (nonadjacent). These situations could have a negative impact on the model by "contaminating" the data and leading it to frequently predict the value zero when it encounters elements with such disproportionate sizes. 
+It was decided to investigate more deeply into the predictions made by the network. The objective was to scrutinize the behavior and decisions of the model through a graphical analysis of the two elements that make up the various pairs, to understand if the shapes of the fragments influence predictions. 
+
+Examining various pairs, one of the initial observations is the presence of some "peculiar" cases. An Example of these cases is shown in GIF 2.  In 10\% of the pairs, with rough inference, one of the fragments is significantly larger than the other and the associated label is often 0 (nonadjacent). These situations could have a negative impact on the model by "contaminating" the data and leading it to frequently predict the value zero when it encounters elements with such disproportionate sizes. 
 
 <div style="text-align:center">
  <p align="center">
@@ -114,7 +116,7 @@ It was decided to investigate more deeply into the predictions made by the netwo
 </div>
 
 
-Another interesting observation is that the network seems to rely on the similarity of the shapes and sizes of the two fragments to make its predictions. After observing several pairs, their labels, and the model's predictions, it is possible to get an idea of what the network will predict by observing the shape and proportion between the two point clouds. 
+Another interesting observation is that the network seems to rely on the similarity of the shapes and sizes of the two fragments to make its predictions. After observing several pairs, their labels, and the model's predictions, it is possible to get an idea of what the network will predict by observing the shape and proportion between the two point clouds. GIF 3 shows Pair 1008, consisting of two very similar elements, which the model accurately predicts as adjacent.
 
 
 <div style="text-align:center">
@@ -135,7 +137,9 @@ This section reports on experiments where the focus is on applying changes to th
 Three different modifications were made: 
 * Replacement of randomly sampled points by the mean of the corresponding columns.
 * Replacement of selected points by axis modifying surfaces according to a specified coordinate range. Points were replaced with others that do not fall within the coordinate interval.
-* Replacement of selected points by applying noise, thus generating new points
+* Replacement of selected points by applying noise, thus generating new points.
+* 
+To get an idea, GIF 4 shows fragment 1 of pair 0 and GIF 5 shows three changes that can be made to this point cloud.
 
 <div style="text-align:center">
  <p align="center">
@@ -155,7 +159,7 @@ Three different modifications were made:
 </p>
 
 <p align="center">
-GIF 5: Left: Replacement of randomly sampled points; Center: Replacement of selected points according to a specified coordinate range; Right: Generation of new points
+GIF 5: Left: Replacement of randomly sampled points; Center: Replacement of selected points according to a specified coordinate range; Right: Generation of new points.
 </p>
 
 
