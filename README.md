@@ -139,19 +139,20 @@ Sono state apportate tre modifiche diverse:
 
 <p align="center">
   <img src="figures/sampled.gif" alt="animated"  width="250" height="120" />
-  <p>
-    Original Frgament 1 from Couple 0
-  </p>
  
   <img src="figures/surface.gif" alt="animated"  width="250" height="120"/>
-  <p>
-    Original Frgament 1 from Couple 0
-  </p>
    
   <img src="figures/generation.gif" alt="animated" width="250" height="120"/>
-  <p>
-    Original Frgament 1 from Couple 0
-  </p>
+  
+</p>
+
+
+<p align="center">
+  Original Frgament 1 from Couple 0
+ 
+  Original Frgament 1 from Couple 0
+   
+  Original Frgament 1 from Couple 0
   
 </p>
 
