@@ -110,17 +110,17 @@ Sono state apportate tre modifiche diverse:
 * sostituzione di punti selezionati con l'applicazione di rumore, generando così nuovi punti
 * 
 <p align="center">
-  <img src="figures/original.gif" alt="animated" />
+  <img src="figures/original.gif" alt="animated" width="250" height="120"/>
  Couple 0 Fragment 1 of the Test set
 </p>
 
 
 <p align="center">
-  <img src="figures/sampled.gif" alt="animated" />
+  <img src="figures/sampled.gif" alt="animated"  width="250" height="120" />
  
-  <img src="figures/surface.gif" alt="animated"  />
+  <img src="figures/surface.gif" alt="animated"  width="250" height="120"/>
    
-  <img src="figures/generation.gif" alt="animated" />
+  <img src="figures/generation.gif" alt="animated" width="250" height="120"/>
    c
 </p>
 
