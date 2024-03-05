@@ -7,7 +7,7 @@
   <img src="figures/Couple0.gif" alt="animated" />
  Couple 0 of the Test set
 </p>
-<\div>
+>
 
 This repository refers to my master's thesis in the Data Science graduate program at Sapienza University.
 
