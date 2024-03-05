@@ -2,10 +2,12 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
+<div style="text-align:center"
 <p align="center">
   <img src="figures/Couple0.gif" alt="animated" />
  Couple 0 of the Test set
 </p>
+<\div>
 
 This repository refers to my master's thesis in the Data Science graduate program at Sapienza University.
 
