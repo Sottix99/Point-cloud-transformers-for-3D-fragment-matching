@@ -76,6 +76,7 @@ The input pairs are divided into two groups, one containing the first elements o
 Then, $G\_{Tot}$ is input to the PCT's original classifier, which consists of three linear layers, where both relu and batch normalization are applied on the first two, interspersed with two dropout layers. 
 In the output, the model generates predictions regarding the adjacency of the two elements forming the pair.  
 
+The following table shows the training details of the model:
 
 |Hyperparameter | Value         | 
 | ------------- |:-------------:| 
@@ -87,7 +88,7 @@ In the output, the model generates predictions regarding the adjacency of the tw
 | Type of couples| Balanced | 
 | Batch Size| 64*|
 | Number of features| 7*|
-
+* These parameters change in the other runs performed and reported in this repository
 ## Results
 
 The following table shows the metrics for the three different runs performed, in the last column the link to download the weights of the trained model can be accessed.
