@@ -88,7 +88,7 @@ The following table shows the model training details regarding the base run, the
 | Number of features| 7*|
 | Number of couples for epoch | 10000| 
 | Type of couples| Balanced | 
-
+| Fixed Couples | No | 
 
 \* These parameters change in the other runs performed and reported in this repository
 ## Results
