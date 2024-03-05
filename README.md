@@ -5,7 +5,7 @@
 <div style="text-align:center">
 <p align="center">
   <img src="figures/Couple0.gif" alt="animated" />
- GIF 1: Couple 0 of the Test set
+ GIF 1: Couple 0, Test set
 </p>
 
 
