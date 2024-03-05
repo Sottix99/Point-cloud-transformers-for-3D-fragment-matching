@@ -208,6 +208,10 @@ immeasurable historical, heritage and cultural value.
 * `Main_Not_Augmentation.ipynb` notebook that contains the model in which all 7 features (x, y, z, nx, ny, nz, A) are used, but data augmentation is not applied;
 * `Inferences_on_modified_fragments.ipynb` notebook that contains the attempt of inferences when the fragments are modified;
 * `Visualize_fragments.ipynb` notebook that contains the code to graphically represent the fragments, both original and modified;
-* `environment.yml` the conda envirorment to run the models
-* `miniconda3.yaml` the conda environment to print fragments in notebook `Visualize_fragments.ipynb`
+* `environment.yml` the conda envirorment to run the models;
+* `miniconda3.yaml` the conda environment to print fragments in notebook `Visualize_fragments.ipynb`;
+* `Figures` the folder that contains the figures and gifs reported in the markdown;
+* `Functions` the folder that contains the functions used in the code;
+* `Python_files` the folder that contains the same code as the notebooks, but saved in .py format;
+  
   
