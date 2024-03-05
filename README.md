@@ -137,21 +137,18 @@ Sono state apportate tre modifiche diverse:
 </div>
 
 
-<div style="text-align:center">
+
 <p align="center">
   <img src="figures/sampled.gif" alt="animated"  width="250" height="120" />
 
   <img src="figures/surface.gif" alt="animated"  width="250" height="120"/>
 
   <img src="figures/generation.gif" alt="animated" width="250" height="120"/>
-
 </p>
-</div>
-<p align="center">
- 
- (a) (b) (c)
 
-  </p>
+<p align="center">
+ (a) (b) (c)
+</p>
 
 
 Changing randomly sampled points showed that the data retained information longer as the number of changes increased. Removing specific areas accelerates the descent of metrics, and some predictions vary with the modified surfaces. Finally, the application of random noise to point coordinates showed that the network begins to exhibit poor performance even with a very small number of altered points. The robustness studies, especially the last one, suggest that they can be used as a filter to detect anomalous data. in fact, with more than 90% of the points modified, the pairs that the model continues to predict as nonadjacent are predominantly composed of bizarre data.
