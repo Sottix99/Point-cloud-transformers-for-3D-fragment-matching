@@ -86,7 +86,7 @@ It can be noted that there is an effect, albeit small, on performances: the mode
 It was decided to investigate more deeply into the predictions made by the network. The objective was to scrutinize the behavior and decisions of the model through a graphical analysis of the two elements that make up the various pairs, to understand if the shapes of the fragments influence predictions. Examining various pairs, one of the initial observations is the presence of some "peculiar" cases. In 10\% of the pairs, with rough inference, one of the fragments is significantly larger than the other and the associated label is often 0 (nonadjacent). These situations could have a negative impact on the model by "contaminating" the data and leading it to frequently predict the value zero when it encounters elements with such disproportionate sizes. 
 
 <p align="center">
-  <img src="figures/Couple0.gif" alt="animated" />
+  <img src="figures/Couple 1008.gif" alt="animated" />
  Couple 0 of the Test set
 </p>
 
