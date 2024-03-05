@@ -40,9 +40,7 @@ Originally organized in clusters, to be processed by the neural network created 
 <div style="text-align:center">
  <p align="center">
   <img src='figures/Infogrammadati4.png' width="250" height="250" />
-  </p>
-  <p align="center">
-    ciao
+    Input data
   </p>
 </div>
 
