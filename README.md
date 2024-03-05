@@ -62,7 +62,7 @@ The input pairs are divided into two groups, one containing the first elements o
 
 <div style="text-align:center">
  <p align="center">
-  <img src='figures/schema_2.png' width="250" height="250" />
+  <img src='figures/schema_2.png' />
   </p>
   <p align="center">
     Pair Model
