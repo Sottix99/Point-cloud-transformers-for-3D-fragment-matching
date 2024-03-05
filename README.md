@@ -108,13 +108,6 @@ Sono state apportate tre modifiche diverse:
 * sostituzione di punti selezionati con l' attribuzione di punti esistenti che non ricadono in quelli scelti
 * sostituzione di punti selezionati con l'applicazione di rumore, generando così nuovi punti 
 
-
-
-Changing randomly sampled points showed that the data retained information longer as the number of changes increased. Removing specific areas accelerates the descent of metrics, and some predictions vary with the modified surfaces. Finally, the application of random noise to point coordinates showed that the network begins to exhibit poor performance even with a very small number of altered points. The robustness studies, especially the last one, suggest that they can be used as a filter to detect anomalous data. in fact, with more than 90% of the points modified, the pairs that the model continues to predict as nonadjacent are predominantly composed of bizarre data.
-
-
-### Substituting random points
-The first analysis performed is to evaluate the effect of replacing the seven features belonging to randomly chosen points from the point clouds with the averages of their respective columns. P represents the percentage of changed points.
 <p align="center">
   <img src="figures/normal.gif" alt="animated" width="200" height="200" />
    a
@@ -123,7 +116,10 @@ The first analysis performed is to evaluate the effect of replacing the seven fe
   <img src="figures/p_0.9.gif" alt="animated" width="200" height="200" />
    c
 </p>
-Between the range 0.1 and 0.4 of p, the 4 metrics used, maintain almost the same value as when no change is made to the data. Subsequently, as 50\% of the points are changed, there is a drop in model performance, with a drop of about 1\% on each metric for every additional 10\% of points changed. The metrics experience a significant fall when p reaches a value of 0.9, with an accuracy of 0.56, F1 of 0.50, AUC of 0.65 and an increase in loss to 0.68.
+
+
+Changing randomly sampled points showed that the data retained information longer as the number of changes increased. Removing specific areas accelerates the descent of metrics, and some predictions vary with the modified surfaces. Finally, the application of random noise to point coordinates showed that the network begins to exhibit poor performance even with a very small number of altered points. The robustness studies, especially the last one, suggest that they can be used as a filter to detect anomalous data. in fact, with more than 90% of the points modified, the pairs that the model continues to predict as nonadjacent are predominantly composed of bizarre data.
+
 
 
 ## Conclusions
