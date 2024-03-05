@@ -112,7 +112,7 @@ Sono state apportate tre modifiche diverse:
 <p align="center">
   <img src="figures/normal.gif" alt="animated" width="200" height="200" />
  
-  <img src="figures/p_0.5.gif" alt="animated" width="200" height="200"  / b >
+  <img src="figures/p_0.5.gif" alt="animated" width="200" height="200"  />
    
   <img src="figures/p_0.9.gif" alt="animated" width="200" height="200" />
    c
