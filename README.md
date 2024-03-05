@@ -88,6 +88,7 @@ The following table shows the training details of the model:
 | Type of couples| Balanced | 
 | Batch Size| 64*|
 | Number of features| 7*|
+
 \* These parameters change in the other runs performed and reported in this repository
 ## Results
 
