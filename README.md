@@ -7,7 +7,7 @@
  
 <div style="text-align:center">
  <p align="center">
-  <img src="figures/Couple0.gif" alt="animated" />
+  <img src="Figures/Couple0.gif" alt="animated" />
   </p>
   <p align="center">
    GIF 1: Couple 0, Test set
@@ -42,7 +42,7 @@ Originally organized in clusters, to be processed by the neural network created 
 
 <div style="text-align:center">
  <p align="center">
-  <img src='figures/infogrammadati8.png' width="250" height="250" />
+  <img src='Figures/infogrammadati8.png' width="250" height="250" />
   </p>
   <p align="center">
    Figure 1: Input data
@@ -65,7 +65,7 @@ The input pairs are divided into two groups, one containing the first elements o
 
 <div style="text-align:center">
  <p align="center">
-  <img src='figures/schema_2.png' />
+  <img src='Figures/schema_2.png' />
   </p>
   <p align="center">
     Figure 2: Pair Model
@@ -108,7 +108,7 @@ Examining various pairs, one of the initial observations is the presence of some
 
 <div style="text-align:center">
  <p align="center">
-  <img src="figures/Couple1008_v2.gif" alt="animated" />
+  <img src="Figures/Couple1008_v2.gif" alt="animated" />
   </p>
   <p align="center">
    GIF 2: Couple 1008, Test set
@@ -121,7 +121,7 @@ Another interesting observation is that the network seems to rely on the similar
 
 <div style="text-align:center">
  <p align="center">
-  <img src="figures/Couple5426.gif" alt="animated" />
+  <img src="Figures/Couple5426.gif" alt="animated" />
   </p>
   <p align="center">
    GIF 3: Couple 5426, Test set
@@ -143,7 +143,7 @@ To get an idea, GIF 4 shows fragment 1 of pair 0 and GIF 5 shows three changes t
 
 <div style="text-align:center">
  <p align="center">
-  <img src="figures/original.gif" alt="animated" width="250" height="120"/>
+  <img src="Figures/original.gif" alt="animated" width="250" height="120"/>
   </p>
   <p align="center">
     GIF 4: Frgament 1 from Couple 0, Test Set
@@ -151,11 +151,11 @@ To get an idea, GIF 4 shows fragment 1 of pair 0 and GIF 5 shows three changes t
 </div>
 
 <p align="center">
-  <img src="figures/sampled.gif" alt="animated"  width="250" height="120" />
+  <img src="Figures/sampled.gif" alt="animated"  width="250" height="120" />
 
-  <img src="figures/surface.gif" alt="animated"  width="250" height="120"/>
+  <img src="Figures/surface.gif" alt="animated"  width="250" height="120"/>
 
-  <img src="figures/generation.gif" alt="animated" width="250" height="120"/>
+  <img src="Figures/generation.gif" alt="animated" width="250" height="120"/>
 </p>
 
 <p align="center">
