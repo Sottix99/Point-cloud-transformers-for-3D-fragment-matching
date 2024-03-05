@@ -111,7 +111,6 @@ Sono state apportate tre modifiche diverse:
 * 
 <p align="center">
   <img src="figures/original.gif" alt="animated" width="250" height="120"/>
- Couple 0 Fragment 1 of the Test set
 </p>
 
 
