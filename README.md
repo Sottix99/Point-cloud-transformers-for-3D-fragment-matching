@@ -84,14 +84,18 @@ it can be noted that there is an effect, albeit small, on performances: the mode
 
 ## Robustness Analysis
 This section reports on experiments where the focus is on applying changes to the input data to assess the effect there is on the model’s performance.
+Sono state apportate tre modifiche diverse: 
+* sostituzione di punti campionati casualmente con la media delle relative colonne
+* sostituzione di punti selezionati con l' attribuzione di punti esistenti che non ricadono in quelli scelti
+* sostituzione di punti selezionati con l'applicazione di rumore, generando così nuovi punti 
 
 ### Substituting random points
 The first analysis performed is to evaluate the effect of replacing the seven features belonging to randomly chosen points from the point clouds with the averages of their respective columns. P represents the percentage of changed points.
 <p align="center">
   <img src="figures/normal.gif" alt="animated" width="200" height="200" />
    a
-  <img src="figures/p_0.5.gif" alt="animated" width="200" height="200" />
-   b
+  <img src="figures/p_0.5.gif" alt="animated" width="200" height="200"  / b >
+   
   <img src="figures/p_0.9.gif" alt="animated" width="200" height="200" />
    c
 </p>
