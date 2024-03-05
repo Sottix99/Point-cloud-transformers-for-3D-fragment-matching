@@ -108,7 +108,8 @@ Sono state apportate tre modifiche diverse:
 * sostituzione di punti campionati casualmente con la media delle relative colonne
 * sostituzione di punti selezionati con l' attribuzione di punti esistenti che non ricadono in quelli scelti
 * sostituzione di punti selezionati con l'applicazione di rumore, generando così nuovi punti
-* 
+
+  
 <p align="center">
   <img src="figures/original.gif" alt="animated" width="250" height="120"/>
 </p>
