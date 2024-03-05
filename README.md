@@ -119,13 +119,10 @@ Were this assumption to prove correct, the model's strategy of assessing the sim
 
 ## Robustness Analysis
 This section reports on experiments where the focus is on applying changes to the input data to assess the effect there is on the model’s performance.
-Sono state apportate tre modifiche diverse: 
-* sostituzione di punti campionati casualmente con la media delle relative colonne
-* sostituzione di punti selezionati con l' attribuzione di punti esistenti che non ricadono in quelli scelti
-* sostituzione di punti selezionati con l'applicazione di rumore, generando così nuovi punti
-
-  
-
+Three different modifications were made: 
+* Replacement of randomly sampled points by the mean of the corresponding columns.
+* Replacement of selected points by axis modifying surfaces according to a specified coordinate range. Points were replaced with others that do not fall within the coordinate interval.
+* Replacement of selected points by applying noise, thus generating new points
 
 <div style="text-align:center">
  <p align="center">
@@ -136,8 +133,6 @@ Sono state apportate tre modifiche diverse:
   </p>
 </div>
 
-
-
 <p align="center">
   <img src="figures/sampled.gif" alt="animated"  width="250" height="120" />
 
@@ -147,7 +142,7 @@ Sono state apportate tre modifiche diverse:
 </p>
 
 <p align="center">
- Left: sostituzione di punti campionati casualmente; Center: sostituzione di punti selezionati, Right: generazione di nuovi punti
+Left: Replacement of randomly sampled points; Center: Replacement of selected points according to a specified coordinate range; Right: Generation of new points
 </p>
 
 
