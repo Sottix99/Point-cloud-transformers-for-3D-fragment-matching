@@ -33,8 +33,7 @@ The RCD (Randomized Cutting Dataset) was constructed from 2180 solid objects of 
 to be irregular, adding further realism. Furthermore, a random noise was applied to the vertices of the triangle meshes. This noise was introduced to mimic the effects of aging and accidental breakages that can occur in artifacts. Going into more detail, the dataset is divided into clusters, each having two macro elements [n_clusters, 2]. The first, with the shape [n_f rags, 1024, 7], represents the set of fragments belonging to the i-th cluster. The second macro element is the adjacency matrix associated with the cluster, providing crucial indications on how the pieces should be joined to form the original object. The dataset is divided into three parts: Train set, Validation Set, and Test Set, with proportions of 70%, 15%, and 15% of the total, respectively.
 Originally organized in clusters, to be processed by the neural network created in this work all possible pairs are unrolled and saved in a list in triplets [frag_a, frag_b, label].
 
-![My Imaged](figures/Infogrammadati4.png)
-*Pair Model*
+<img src='figures/Infogrammadati4.png' width="200" height="400" >
 
 Given the large number of pairs in the dataset (about 2 million), 10,000 balanced pairs are selected at each epoch. In other words, 5000 pairs of adjacent fragments and an equal number of non-adjacent are extracted through random sampling of the dataset. Concerning the validation set and the Test set, a subsample of the original datais also used here. Specifically, three thousand positive pairs and an equal number of negative pairs are randomly included, which, unlike the training set, are kept
 constant throughout the training cycle.
@@ -109,7 +108,7 @@ Sono state apportate tre modifiche diverse:
 
 <p align="center">
   <img src="figures/normal.gif" alt="animated" width="200" height="200" />
-   a
+ 
   <img src="figures/p_0.5.gif" alt="animated" width="200" height="200"  / b >
    
   <img src="figures/p_0.9.gif" alt="animated" width="200" height="200" />
