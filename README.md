@@ -87,7 +87,7 @@ It was decided to investigate more deeply into the predictions made by the netwo
 
 <p align="center">
   <img src="figures/Couple1008_v2.gif" alt="animated" />
- Couple 0 of the Test set
+ Couple 1008 of the Test set
 </p>
 
 Another interesting observation is that the network seems to rely on the similarity of the shapes and sizes of the two fragments to make its predictions. After observing several pairs, their labels, and the model's predictions, it is possible to get an idea of what the network will predict by observing the shape and proportion between the two point clouds. 
