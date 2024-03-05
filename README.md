@@ -35,6 +35,7 @@ Originally organized in clusters, to be processed by the neural network created 
 
 <p align="center">
  <img src='figures/Infogrammadati4.png' width="250" height="250" >
+Input data
 </p>
 
 Given the large number of pairs in the dataset (about 2 million), 10,000 balanced pairs are selected at each epoch. In other words, 5000 pairs of adjacent fragments and an equal number of non-adjacent are extracted through random sampling of the dataset. Concerning the validation set and the Test set, a subsample of the original datais also used here. Specifically, three thousand positive pairs and an equal number of negative pairs are randomly included, which, unlike the training set, are kept
