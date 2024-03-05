@@ -116,11 +116,11 @@ Sono state apportate tre modifiche diverse:
 
 
 <p align="center">
-  <img src="figures/sampled.gif" alt="animated" width="200" height="200" />
+  <img src="figures/sampled.gif" alt="animated" />
  
-  <img src="figures/surface.gif" alt="animated" width="200" height="200"  />
+  <img src="figures/surface.gif" alt="animated"  />
    
-  <img src="figures/generation.gif" alt="animated" width="200" height="200" />
+  <img src="figures/generation.gif" alt="animated" />
    c
 </p>
 
