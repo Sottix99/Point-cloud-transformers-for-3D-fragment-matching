@@ -141,15 +141,15 @@ Sono state apportate tre modifiche diverse:
 <p align="center">
   <img src="figures/sampled.gif" alt="animated"  width="250" height="120" />
 
- 
   <img src="figures/surface.gif" alt="animated"  width="250" height="120"/>
 
   <img src="figures/generation.gif" alt="animated" width="250" height="120"/>
 
 </p>
+
 <p align="center">
  
-(a) (b) (c)
+ (a) (b) (c)
 
   </p>
 </div>
