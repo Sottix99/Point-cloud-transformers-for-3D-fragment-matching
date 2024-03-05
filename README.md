@@ -60,8 +60,15 @@ The neural network developed for this thesis, as shown in the Figure, presents a
 
 The input pairs are divided into two groups, one containing the first elements of each pair and the other the second. To enhance the model’s generalization capability, each individual point cloud undergoes a random rotation, serving as a form of data augmentation. Furthermore, all fragments are translated to the origin. These tensors of fragments are processed in parallel in the two branches of the network through the pct encoder layers. The output of each branch represents the global features of the individual fragments input. The next step is to go and aggregate the two tensors produced to arrive at the global features of the pairs. Named $G_1$ and $G_2$, the global characteristics of the first and second elements of the pair, respectively, are aggregated through the use of two symmetrical functions, sum and multiplication, thus producing the global characteristics of the pairs ($G\_{Tot}$).
 
-![My Imaged](figures/schema_2.png)
-*Pair Model*
+<div style="text-align:center">
+ <p align="center">
+  <img src='figures/schema_2.png' width="250" height="250" />
+  </p>
+  <p align="center">
+    Pair Model
+  </p>
+</div>
+
 
 Then, $G\_{Tot}$ is input to the PCT's original classifier, which consists of three linear layers, where both relu and batch normalization are applied on the first two, interspersed with two dropout layers. 
 In the output, the model generates predictions regarding the adjacency of the two elements forming the pair.  
