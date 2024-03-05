@@ -116,7 +116,7 @@ Examining various pairs, one of the initial observations is the presence of some
 </div>
 
 
-Another interesting observation is that the network seems to rely on the similarity of the shapes and sizes of the two fragments to make its predictions. After observing several pairs, their labels, and the model's predictions, it is possible to get an idea of what the network will predict by observing the shape and proportion between the two point clouds. GIF 3 shows Pair 1008, consisting of two very similar elements, which the model accurately predicts as adjacent.
+Another interesting observation is that the network seems to rely on the similarity of the shapes and sizes of the two fragments to make its predictions. After observing several pairs, their labels, and the model's predictions, it is possible to get an idea of what the network will predict by observing the shape and proportion between the two point clouds. GIF 3 shows Pair 5426, consisting of two very similar elements, which the model accurately predicts as adjacent.
 
 
 <div style="text-align:center">
