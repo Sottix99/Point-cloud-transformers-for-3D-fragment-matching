@@ -88,7 +88,7 @@ The following table shows the training details of the model:
 | Type of couples| Balanced | 
 | Batch Size| 64*|
 | Number of features| 7*|
-* These parameters change in the other runs performed and reported in this repository
+\* These parameters change in the other runs performed and reported in this repository
 ## Results
 
 The following table shows the metrics for the three different runs performed, in the last column the link to download the weights of the trained model can be accessed.
