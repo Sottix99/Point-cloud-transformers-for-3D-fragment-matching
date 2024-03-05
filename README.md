@@ -77,6 +77,17 @@ Then, $G\_{Tot}$ is input to the PCT's original classifier, which consists of th
 In the output, the model generates predictions regarding the adjacency of the two elements forming the pair.  
 
 
+|Hyperparameter | Value         | 
+| ------------- |:-------------:| 
+| Learning Rate | 0.00005       | 
+| Optimizer | Adam               | 
+| Number of Epochs| 200* | 
+| Weight decay| 0.0001|
+| Number of couples for epoch | 10000| 
+| Type of couples| Balanced | 
+| Batch Size| 64*|
+| Number of features| 7*|
+
 ## Results
 
 The following table shows the metrics for the three different runs performed, in the last column the link to download the weights of the trained model can be accessed.
