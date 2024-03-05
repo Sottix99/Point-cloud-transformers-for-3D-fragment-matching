@@ -147,7 +147,7 @@ Sono state apportate tre modifiche diverse:
 </p>
 
 <p align="center">
- (a) (b) (c)
+ Left: sostituzione di punti campionati casualmente; Center: sostituzione di punti selezionati, Right: generazione di nuovi punti
 </p>
 
 
