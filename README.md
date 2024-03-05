@@ -138,7 +138,7 @@ Three different modifications were made:
 * Replacement of randomly sampled points by the mean of the corresponding columns.
 * Replacement of selected points by axis modifying surfaces according to a specified coordinate range. Points were replaced with others that do not fall within the coordinate interval.
 * Replacement of selected points by applying noise, thus generating new points.
-* 
+  
 To get an idea, GIF 4 shows fragment 1 of pair 0 and GIF 5 shows three changes that can be made to this point cloud.
 
 <div style="text-align:center">
