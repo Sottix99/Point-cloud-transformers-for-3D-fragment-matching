@@ -107,14 +107,20 @@ This section reports on experiments where the focus is on applying changes to th
 Sono state apportate tre modifiche diverse: 
 * sostituzione di punti campionati casualmente con la media delle relative colonne
 * sostituzione di punti selezionati con l' attribuzione di punti esistenti che non ricadono in quelli scelti
-* sostituzione di punti selezionati con l'applicazione di rumore, generando così nuovi punti 
+* sostituzione di punti selezionati con l'applicazione di rumore, generando così nuovi punti
+* 
+<p align="center">
+  <img src="figures/original.gif" alt="animated" />
+ Couple 0 Fragment 1 of the Test set
+</p>
+
 
 <p align="center">
-  <img src="figures/normal.gif" alt="animated" width="200" height="200" />
+  <img src="figures/sampled.gif" alt="animated" width="200" height="200" />
  
-  <img src="figures/p_0.5.gif" alt="animated" width="200" height="200"  />
+  <img src="figures/surface.gif" alt="animated" width="200" height="200"  />
    
-  <img src="figures/p_0.9.gif" alt="animated" width="200" height="200" />
+  <img src="figures/generation.gif" alt="animated" width="200" height="200" />
    c
 </p>
 
