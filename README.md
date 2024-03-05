@@ -140,18 +140,17 @@ Sono state apportate tre modifiche diverse:
 <div style="text-align:center">
 <p align="center">
   <img src="figures/sampled.gif" alt="animated"  width="250" height="120" />
-  <p> c  </p>
+
  
   <img src="figures/surface.gif" alt="animated"  width="250" height="120"/>
-   <p> c  </p>
+
   <img src="figures/generation.gif" alt="animated" width="250" height="120"/>
-  <p> c  </p>
+
 </p>
 <p align="center">
  
- <p> c  </p>
- <p> c  </p>
- <p> c  </p>
+(a) (b) (c)
+
   </p>
 </div>
 
