@@ -125,9 +125,16 @@ Sono state apportate tre modifiche diverse:
 * sostituzione di punti selezionati con l'applicazione di rumore, generando così nuovi punti
 
   
-<p align="center">
+
+
+<div style="text-align:center">
+ <p align="center">
   <img src="figures/original.gif" alt="animated" width="250" height="120"/>
-</p>
+  </p>
+  <p align="center">
+    Original Frgament 1 from Couple 0
+  </p>
+</div>
 
 
 <p align="center">
