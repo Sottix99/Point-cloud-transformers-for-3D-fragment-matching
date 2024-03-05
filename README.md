@@ -42,7 +42,7 @@ Originally organized in clusters, to be processed by the neural network created 
 
 <div style="text-align:center">
  <p align="center">
-  <img src='figures/infogrammadati5.png' width="250" height="250" />
+  <img src='figures/infogrammadati8.png' width="250" height="250" />
   </p>
   <p align="center">
    Figure 1: Input data
