@@ -5,7 +5,7 @@
 <div style="text-align:center">
 <p align="center">
   <img src="figures/Couple0.gif" alt="animated" />
- Couple 0 of the Test set
+ GIF 1: Couple 0 of the Test set
 </p>
 
 
@@ -33,16 +33,14 @@ The data used in this work is the Rotated cuts dataset (RCD) that comes from the
 
 The RCD (Randomized Cutting Dataset) was constructed from 2180 solid objects of the types cube, sphere, and torus. The cutting surfaces have random orientations, allowing for fragments with realistic shapes. These surfaces have been designed
 to be irregular, adding further realism. Furthermore, a random noise was applied to the vertices of the triangle meshes. This noise was introduced to mimic the effects of aging and accidental breakages that can occur in artifacts. Going into more detail, the dataset is divided into clusters, each having two macro elements [n_clusters, 2]. The first, with the shape [n_f rags, 1024, 7], represents the set of fragments belonging to the i-th cluster. The second macro element is the adjacency matrix associated with the cluster, providing crucial indications on how the pieces should be joined to form the original object. The dataset is divided into three parts: Train set, Validation Set, and Test Set, with proportions of 70%, 15%, and 15% of the total, respectively.
-Originally organized in clusters, to be processed by the neural network created in this work all possible pairs are unrolled and saved in a list in triplets [frag_a, frag_b, label].
-
-
+Originally organized in clusters, to be processed by the neural network created in this work all possible pairs are unrolled and saved in a list in triplets [frag_a, frag_b, label], as can be seen from Figure 1.
 
 <div style="text-align:center">
  <p align="center">
   <img src='figures/Infogrammadati4.png' width="250" height="250" />
   </p>
   <p align="center">
-    Input data
+   Figure 1: Input data
   </p>
 </div>
 
@@ -65,7 +63,7 @@ The input pairs are divided into two groups, one containing the first elements o
   <img src='figures/schema_2.png' />
   </p>
   <p align="center">
-    Pair Model
+    Figure 2: Pair Model
   </p>
 </div>
 
@@ -103,14 +101,14 @@ It was decided to investigate more deeply into the predictions made by the netwo
 
 <p align="center">
   <img src="figures/Couple1008_v2.gif" alt="animated" />
- Couple 1008 of the Test set
+GIF 2: Couple 1008 of the Test set
 </p>
 
 Another interesting observation is that the network seems to rely on the similarity of the shapes and sizes of the two fragments to make its predictions. After observing several pairs, their labels, and the model's predictions, it is possible to get an idea of what the network will predict by observing the shape and proportion between the two point clouds. 
 
 <p align="center">
   <img src="figures/Couple5426.gif" alt="animated" />
- Couple 5426 of the Test set
+ GIF 3: Couple 5426 of the Test set
 </p>
 
 Were this assumption to prove correct, the model's strategy of assessing the similarity between the two point clouds would make sense. This approach could be analogous to a puzzle-solving strategy, where the attempt to join the pieces begins by looking for pairings between the most similar pieces. Such logic is consistent, since in reality, during the reconstruction of a fragmented object, it is likely that the most similar pieces are those that are close together. However, it is important to note that this consideration is closely related to the archaeological context of reference.
@@ -129,7 +127,7 @@ Three different modifications were made:
   <img src="figures/original.gif" alt="animated" width="250" height="120"/>
   </p>
   <p align="center">
-    Original Frgament 1 from Couple 0
+    GIF 4: Original Frgament 1 from Couple 0
   </p>
 </div>
 
@@ -142,7 +140,7 @@ Three different modifications were made:
 </p>
 
 <p align="center">
-Left: Replacement of randomly sampled points; Center: Replacement of selected points according to a specified coordinate range; Right: Generation of new points
+GIF 5: Left: Replacement of randomly sampled points; Center: Replacement of selected points according to a specified coordinate range; Right: Generation of new points
 </p>
 
 
