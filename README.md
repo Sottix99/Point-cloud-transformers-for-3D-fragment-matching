@@ -93,8 +93,8 @@ It was decided to investigate more deeply into the predictions made by the netwo
 Another interesting observation is that the network seems to rely on the similarity of the shapes and sizes of the two fragments to make its predictions. After observing several pairs, their labels, and the model's predictions, it is possible to get an idea of what the network will predict by observing the shape and proportion between the two point clouds. 
 
 <p align="center">
-  <img src="figures/Couple0.gif" alt="animated" />
- Couple 0 of the Test set
+  <img src="figures/Couple5426.gif" alt="animated" />
+ Couple 5426 of the Test set
 </p>
 
 Were this assumption to prove correct, the model's strategy of assessing the similarity between the two point clouds would make sense. This approach could be analogous to a puzzle-solving strategy, where the attempt to join the pieces begins by looking for pairings between the most similar pieces. Such logic is consistent, since in reality, during the reconstruction of a fragmented object, it is likely that the most similar pieces are those that are close together. However, it is important to note that this consideration is closely related to the archaeological context of reference.
